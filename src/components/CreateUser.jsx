@@ -7,7 +7,7 @@ const CreateUser = ({ userFormState, setUserFormState, userId }) => {
     error: null,
     isSuccess: false,
   });
-
+ console.log("testing");
   const [updateUser, setUpdateUser] = useState({
     isUpdateLoading: false,
     updateError: null,
